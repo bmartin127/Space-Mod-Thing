@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "modern_planets:blocks/cheeseore",
+    "up": "modern_planets:blocks/cheeseore",
+    "north": "modern_planets:blocks/cheeseore",
+    "east": "modern_planets:blocks/cheeseore",
+    "south": "modern_planets:blocks/cheeseore",
+    "west": "modern_planets:blocks/cheeseore",
+    "particle": "modern_planets:blocks/cheeseore"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "modern_planets:blocks/rockettop",
+    "up": "modern_planets:blocks/rockettop",
+    "north": "modern_planets:blocks/rocket",
+    "east": "modern_planets:blocks/rocket",
+    "south": "modern_planets:blocks/rocket",
+    "west": "modern_planets:blocks/rocket",
+    "particle": "modern_planets:blocks/rockettop"
+  }
+}

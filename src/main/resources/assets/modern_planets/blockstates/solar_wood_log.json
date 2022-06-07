@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "modern_planets:block/solar_wood_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "modern_planets:block/solar_wood_log"
+    },
+    "axis=z": {
+      "model": "modern_planets:block/solar_wood_log",
+      "x": 90
+    }
+  }
+}

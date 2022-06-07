@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "modern_planets:block/solar_wood_pressure_plate"
+    },
+    "powered=true": {
+      "model": "modern_planets:block/solar_wood_pressure_plate_down"
+    }
+  }
+}

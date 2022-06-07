@@ -1,0 +1,6 @@
+{
+  "parent": "block/button_pressed",
+  "textures": {
+    "texture": "modern_planets:blocks/solarwood_planks"
+  }
+}

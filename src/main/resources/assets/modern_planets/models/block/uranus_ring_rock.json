@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "modern_planets:blocks/uranusringrock",
+    "up": "modern_planets:blocks/uranusringrock",
+    "north": "modern_planets:blocks/uranusringrock",
+    "east": "modern_planets:blocks/uranusringrock",
+    "south": "modern_planets:blocks/uranusringrock",
+    "west": "modern_planets:blocks/uranusringrock",
+    "particle": "modern_planets:blocks/uranusringrock"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "modern_planets:block/solar_wood_slab"
+    },
+    "type=top": {
+      "model": "modern_planets:block/solar_wood_slab_top"
+    },
+    "type=double": {
+      "model": "modern_planets:block/solar_wood_slab_full"
+    }
+  }
+}

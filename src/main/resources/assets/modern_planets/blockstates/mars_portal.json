@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "modern_planets:block/mars_portal_ew"
+    },
+    "axis=x": {
+      "model": "modern_planets:block/mars_portal_ns"
+    }
+  }
+}

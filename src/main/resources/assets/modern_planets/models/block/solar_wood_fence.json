@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "modern_planets:blocks/solarwood_planks",
+    "particle": "modern_planets:blocks/solarwood_planks"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "modern_planets:blocks/solarwood_planks",
+    "top": "modern_planets:blocks/solarwood_planks",
+    "side": "modern_planets:blocks/solarwood_planks"
+  }
+}

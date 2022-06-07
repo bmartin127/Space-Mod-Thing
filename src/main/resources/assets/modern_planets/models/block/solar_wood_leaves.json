@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "modern_planets:blocks/solarwood_leaves",
+    "particle": "modern_planets:blocks/solarwood_leaves"
+  }
+}

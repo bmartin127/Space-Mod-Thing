@@ -1,0 +1,560 @@
+{
+  "mod_elements": [
+    {
+      "name": "MarsStone",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mars_stone"
+    },
+    {
+      "name": "MarsBiome",
+      "type": "biome",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mars_biome"
+    },
+    {
+      "name": "Mars",
+      "type": "dimension",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mars",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "Rocket",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocket"
+    },
+    {
+      "name": "RocketMarsLaunch",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocket_mars_launch",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GuiRocket",
+      "type": "gui",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gui_rocket"
+    },
+    {
+      "name": "FuelCanister",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuel_canister"
+    },
+    {
+      "name": "Fuel",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuel",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Moon",
+      "type": "biome",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon"
+    },
+    {
+      "name": "MoonDim",
+      "type": "dimension",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_dim",
+      "metadata": {
+        "ep": false
+      }
+    },
+    {
+      "name": "MoonTp",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_tp",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CheeseOre",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_ore"
+    },
+    {
+      "name": "CheesePasteurizer",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_pasteurizer"
+    },
+    {
+      "name": "IronCone",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_cone"
+    },
+    {
+      "name": "MakeACone",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_a_cone"
+    },
+    {
+      "name": "Booster",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "booster"
+    },
+    {
+      "name": "MakeARocket",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_a_rocket"
+    },
+    {
+      "name": "MakeABooster",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_a_booster"
+    },
+    {
+      "name": "Cheese",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese"
+    },
+    {
+      "name": "CheeseProcedure",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cheese2",
+      "type": "gui",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_2"
+    },
+    {
+      "name": "GoToEarth",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "go_to_earth",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Space",
+      "type": "biome",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space"
+    },
+    {
+      "name": "SpaceDim",
+      "type": "dimension",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_dim",
+      "metadata": {
+        "ep": false
+      }
+    },
+    {
+      "name": "SpaceStation",
+      "type": "structure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_station"
+    },
+    {
+      "name": "ToSpaceProcedure",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "to_space_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LaunchTower",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "launch_tower"
+    },
+    {
+      "name": "RocketTop",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocket_top"
+    },
+    {
+      "name": "UranusRingRock",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranus_ring_rock"
+    },
+    {
+      "name": "SolarWoodWood",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_wood_wood"
+    },
+    {
+      "name": "SolarWoodLog",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_wood_log"
+    },
+    {
+      "name": "SolarWoodPlanks",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_wood_planks"
+    },
+    {
+      "name": "SolarWoodLeaves",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_wood_leaves"
+    },
+    {
+      "name": "SolarWoodStairs",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_wood_stairs"
+    },
+    {
+      "name": "SolarWoodSlab",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_wood_slab"
+    },
+    {
+      "name": "SolarWoodFence",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_wood_fence"
+    },
+    {
+      "name": "SolarWoodFenceGate",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_wood_fence_gate"
+    },
+    {
+      "name": "SolarWoodPressurePlate",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_wood_pressure_plate"
+    },
+    {
+      "name": "SolarWoodButton",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_wood_button"
+    },
+    {
+      "name": "SolarWoodItemsTag",
+      "type": "tag",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_wood_items_tag"
+    },
+    {
+      "name": "SolarWoodWoodRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_wood_wood_recipe"
+    },
+    {
+      "name": "SolarWoodPlanksRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_wood_planks_recipe"
+    },
+    {
+      "name": "SolarWoodStairsRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_wood_stairs_recipe"
+    },
+    {
+      "name": "SolarWoodSlabRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_wood_slab_recipe"
+    },
+    {
+      "name": "SolarWoodFenceRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_wood_fence_recipe"
+    },
+    {
+      "name": "SolarWoodFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_wood_fence_gate_recipe"
+    },
+    {
+      "name": "SolarWoodPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_wood_pressure_plate_recipe"
+    },
+    {
+      "name": "SolarWoodButtonRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_wood_button_recipe"
+    },
+    {
+      "name": "SolarWoodStickRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_wood_stick_recipe"
+    },
+    {
+      "name": "UranusRings",
+      "type": "biome",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranus_rings"
+    },
+    {
+      "name": "UranusRingDim",
+      "type": "dimension",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranus_ring_dim",
+      "metadata": {
+        "ep": false
+      }
+    },
+    {
+      "name": "GoToUranus",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "go_to_uranus",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LaunchPad",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "launch_pad"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.modern_planets.solar_wood_pressure_plate": "SolarWood Pressure Plate",
+      "biome.modern_planets.uranus_rings": "Uranus Rings",
+      "item.modern_planets.iron_cone": "Iron Cone",
+      "block.modern_planets.solar_wood_stairs": "SolarWood Stairs",
+      "block.modern_planets.mars_stone": "Mars Stone",
+      "block.modern_planets.solar_wood_fence": "SolarWood Fence",
+      "item.modern_planets.booster": "Booster",
+      "block.modern_planets.rocket_top": "Rocket Middle",
+      "item.modern_planets.fuel_canister": "Fuel Canister",
+      "block.modern_planets.solar_wood_leaves": "SolarWood Leaves",
+      "item.modern_planets.cheese": "Cheese",
+      "biome.modern_planets.moon": "Moon",
+      "block.modern_planets.rocket": "Rocket",
+      "block.modern_planets.uranus_ring_rock": "Uranus Ring Rock",
+      "block.modern_planets.solar_wood_slab": "SolarWood Slab",
+      "block.modern_planets.solar_wood_planks": "SolarWood Planks",
+      "item.modern_planets.moon_dim": "Moon Dim Portal Igniter",
+      "block.modern_planets.cheese_pasteurizer": "Cheese Pasteurizer",
+      "block.modern_planets.cheese_ore": "Cheese Ore",
+      "block.modern_planets.solar_wood_button": "SolarWood Button",
+      "item.modern_planets.uranus_ring_dim": "Uranus Ring Dim Portal Igniter",
+      "block.modern_planets.solar_wood_log": "SolarWood Log",
+      "block.modern_planets.launch_tower": "Launch Tower",
+      "block.modern_planets.solar_wood_fence_gate": "SolarWood Fence Gate",
+      "block.modern_planets.solar_wood_wood": "SolarWood Wood",
+      "item.modern_planets.mars": "Mars Portal Igniter",
+      "biome.modern_planets.space": "Space",
+      "item.modern_planets.space_dim": "Space Dim Portal Igniter",
+      "block.modern_planets.launch_pad": "Launch Pad",
+      "biome.modern_planets.mars_biome": "Mars Biome"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "modern_planets",
+    "modName": "Modern Planets",
+    "version": "1.0.0",
+    "description": "Best 1.18 space mod ever",
+    "author": "WinBamStudios aka. Command, and Axolotl127",
+    "websiteURL": "none",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "created by command and axo",
+    "modElementsPackage": "net.mcreator.modernplanets",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}

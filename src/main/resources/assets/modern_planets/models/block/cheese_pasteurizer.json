@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "modern_planets:blocks/cp",
+    "up": "modern_planets:blocks/cp",
+    "north": "modern_planets:blocks/cp",
+    "east": "modern_planets:blocks/cp",
+    "south": "modern_planets:blocks/cp",
+    "west": "modern_planets:blocks/cp",
+    "particle": "modern_planets:blocks/cp"
+  }
+}

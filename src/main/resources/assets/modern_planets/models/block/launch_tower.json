@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "modern_planets:blocks/launchtower",
+    "up": "modern_planets:blocks/launchtower",
+    "north": "modern_planets:blocks/launchtower",
+    "east": "modern_planets:blocks/launchtower",
+    "south": "modern_planets:blocks/launchtower",
+    "west": "modern_planets:blocks/launchtower",
+    "particle": "modern_planets:blocks/launchtower"
+  }
+}

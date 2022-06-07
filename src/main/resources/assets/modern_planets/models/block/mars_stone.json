@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "modern_planets:blocks/marsstonesurface",
+    "up": "modern_planets:blocks/marsstonesurface",
+    "north": "modern_planets:blocks/marsstonesurface",
+    "east": "modern_planets:blocks/marsstonesurface",
+    "south": "modern_planets:blocks/marsstonesurface",
+    "west": "modern_planets:blocks/marsstonesurface",
+    "particle": "modern_planets:blocks/marsstonesurface"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_ingot"
+    },
+    "1": {
+      "item": "minecraft:redstone"
+    },
+    "2": {
+      "item": "minecraft:iron_ingot"
+    },
+    "4": {
+      "item": "minecraft:flint_and_steel"
+    }
+  },
+  "result": {
+    "item": "modern_planets:booster",
+    "count": 1
+  }
+}

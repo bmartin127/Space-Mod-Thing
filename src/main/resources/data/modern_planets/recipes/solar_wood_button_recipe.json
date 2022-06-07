@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "modern_planets:solar_wood_planks"
+    }
+  ],
+  "result": {
+    "item": "modern_planets:solar_wood_button",
+    "count": 1
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 190,
+    "height": 267,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "Mars",
+          "onClick": {
+            "name": "RocketMarsLaunch"
+          },
+          "width": 56,
+          "height": 20,
+          "name": "Mars",
+          "x": 218,
+          "y": 5
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Rocket",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Rocket",
+          "x": 122,
+          "y": -6
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "0% Fuel",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "0% Fuel",
+          "x": 146,
+          "y": 29
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "Fuel"
+          },
+          "name": "Slot #0",
+          "x": 124,
+          "y": 24
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Deposit",
+          "onClick": {
+            "name": "Fuel"
+          },
+          "width": 61,
+          "height": 20,
+          "name": "Deposit",
+          "x": 122,
+          "y": 45
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Available Planets",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Available Planets",
+          "x": 204,
+          "y": -7
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Moon",
+          "onClick": {
+            "name": "MoonTp"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Moon",
+          "x": 222,
+          "y": 27
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Earth",
+          "onClick": {
+            "name": "GoToEarth"
+          },
+          "width": 51,
+          "height": 20,
+          "name": "Earth",
+          "x": 220,
+          "y": 49
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "BETA - NO FUEL REQUIRED",
+          "color": {
+            "value": -39424,
+            "falpha": 0.0
+          },
+          "name": "BETA - NO FUEL REQUIRED",
+          "x": 151,
+          "y": 211
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Space Station",
+          "onClick": {
+            "name": "ToSpaceProcedure"
+          },
+          "width": 93,
+          "height": 20,
+          "name": "Space Station",
+          "x": 200,
+          "y": 70
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Tier 1 - 4 Planets",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Tier 1 - 4 Planets",
+          "x": 164,
+          "y": 200
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "note: space can be dangerous",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "note: space can be dangerous",
+          "x": 136,
+          "y": 223
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Uranus Rings",
+          "onClick": {
+            "name": "GoToUranus"
+          },
+          "width": 87,
+          "height": 20,
+          "name": "Uranus Rings",
+          "x": 202,
+          "y": 92
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

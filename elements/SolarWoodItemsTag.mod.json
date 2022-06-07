@@ -1,0 +1,20 @@
+{
+  "_fv": 28,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:SolarWoodWood"
+      },
+      {
+        "value": "CUSTOM:SolarWoodLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "solarwood_log",
+    "namespace": "forge"
+  }
+}

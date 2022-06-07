@@ -1,0 +1,42 @@
+{
+  "_fv": 28,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:MarsBiome"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:MarsStone"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:MarsStone"
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "Blocks.PLANKS#5"
+    },
+    "portalParticles": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Mars Portal Igniter",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "a",
+    "portalTexture": "marsstonesurface",
+    "enablePortal": true
+  }
+}

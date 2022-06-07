@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="modern_planets"
+version="1.0.0"
+displayName="Modern Planets"
+credits="created by command and axo"
+displayURL="https://mcreator.net"
+authors="WinBamStudios aka. Command, and Axolotl127"
+description='''
+Best 1.18 space mod ever
+'''
+
+[[dependencies.modern_planets]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

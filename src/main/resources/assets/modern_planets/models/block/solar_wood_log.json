@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "modern_planets:blocks/solarwood_log_top",
+    "up": "modern_planets:blocks/solarwood_log_top",
+    "north": "modern_planets:blocks/solarwood_log_side",
+    "east": "modern_planets:blocks/solarwood_log_side",
+    "south": "modern_planets:blocks/solarwood_log_side",
+    "west": "modern_planets:blocks/solarwood_log_side",
+    "particle": "modern_planets:blocks/solarwood_log_top"
+  }
+}

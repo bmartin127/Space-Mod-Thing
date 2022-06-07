@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "modern_planets:solar_wood_wood",
+    "modern_planets:solar_wood_log",
+    "modern_planets:solar_wood_planks"
+  ]
+}

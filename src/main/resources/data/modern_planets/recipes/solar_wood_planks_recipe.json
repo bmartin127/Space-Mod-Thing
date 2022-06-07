@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:solarwood_log"
+    }
+  ],
+  "result": {
+    "item": "modern_planets:solar_wood_planks",
+    "count": 4
+  }
+}
