@@ -1,8 +1,0 @@
-{
-  "parent": "modern_planets:custom/launchpad_(1)",
-  "textures": {
-    "all": "modern_planets:blocks/rockettop",
-    "particle": "modern_planets:blocks/rockettop",
-    "0": "modern_planets:blocks/texture_4"
-  }
-}

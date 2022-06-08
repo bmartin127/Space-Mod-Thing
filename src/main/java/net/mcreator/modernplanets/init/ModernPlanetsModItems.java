@@ -47,7 +47,7 @@ public class ModernPlanetsModItems {
 	public static final RegistryObject<Item> SOLAR_WOOD_PRESSURE_PLATE = block(ModernPlanetsModBlocks.SOLAR_WOOD_PRESSURE_PLATE,
 			CreativeModeTab.TAB_REDSTONE);
 	public static final RegistryObject<Item> SOLAR_WOOD_BUTTON = block(ModernPlanetsModBlocks.SOLAR_WOOD_BUTTON, CreativeModeTab.TAB_BUILDING_BLOCKS);
-	public static final RegistryObject<Item> LAUNCH_PAD = block(ModernPlanetsModBlocks.LAUNCH_PAD, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> TIER_1_LAUNCH_PAD = block(ModernPlanetsModBlocks.TIER_1_LAUNCH_PAD, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

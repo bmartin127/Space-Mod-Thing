@@ -1,5 +1,5 @@
 {
-  "parent": "modern_planets:block/launch_pad",
+  "parent": "modern_planets:block/tier_1_launch_pad",
   "display": {
     "thirdperson": {
       "rotation": [

@@ -96,7 +96,7 @@ public class GuiRocketScreen extends AbstractContainerScreen<GuiRocketMenu> {
 				GuiRocketButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
 		}));
-		this.addRenderableWidget(new Button(this.leftPos + 3, this.topPos + 58, 61, 20, new TextComponent("Deposit"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 4, this.topPos + 58, 61, 20, new TextComponent("Deposit"), e -> {
 			if (true) {
 				ModernPlanetsMod.PACKET_HANDLER.sendToServer(new GuiRocketButtonMessage(1, x, y, z));
 				GuiRocketButtonMessage.handleButtonAction(entity, 1, x, y, z);

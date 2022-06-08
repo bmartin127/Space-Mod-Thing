@@ -1,5 +1,6 @@
 {
   "block.modern_planets.solar_wood_pressure_plate": "SolarWood Pressure Plate",
+  "block.modern_planets.tier_1_launch_pad": "Tier 1 Launch Pad",
   "biome.modern_planets.uranus_rings": "Uranus Rings",
   "item.modern_planets.iron_cone": "Iron Cone",
   "block.modern_planets.solar_wood_stairs": "SolarWood Stairs",
@@ -27,6 +28,5 @@
   "item.modern_planets.mars": "Mars Portal Igniter",
   "biome.modern_planets.space": "Space",
   "item.modern_planets.space_dim": "Space Dim Portal Igniter",
-  "block.modern_planets.launch_pad": "Launch Pad",
   "biome.modern_planets.mars_biome": "Mars Biome"
 }

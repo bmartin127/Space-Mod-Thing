@@ -15,6 +15,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.modernplanets.block.UranusRingRockBlock;
+import net.mcreator.modernplanets.block.Tier1LaunchPadBlock;
 import net.mcreator.modernplanets.block.SolarWoodWoodBlock;
 import net.mcreator.modernplanets.block.SolarWoodStairsBlock;
 import net.mcreator.modernplanets.block.SolarWoodSlabBlock;
@@ -30,7 +31,6 @@ import net.mcreator.modernplanets.block.RocketBlock;
 import net.mcreator.modernplanets.block.MarsStoneBlock;
 import net.mcreator.modernplanets.block.MarsPortalBlock;
 import net.mcreator.modernplanets.block.LaunchTowerBlock;
-import net.mcreator.modernplanets.block.LaunchPadBlock;
 import net.mcreator.modernplanets.block.CheesePasteurizerBlock;
 import net.mcreator.modernplanets.block.CheeseOreBlock;
 import net.mcreator.modernplanets.ModernPlanetsMod;
@@ -56,7 +56,7 @@ public class ModernPlanetsModBlocks {
 	public static final RegistryObject<Block> SOLAR_WOOD_PRESSURE_PLATE = REGISTRY.register("solar_wood_pressure_plate",
 			() -> new SolarWoodPressurePlateBlock());
 	public static final RegistryObject<Block> SOLAR_WOOD_BUTTON = REGISTRY.register("solar_wood_button", () -> new SolarWoodButtonBlock());
-	public static final RegistryObject<Block> LAUNCH_PAD = REGISTRY.register("launch_pad", () -> new LaunchPadBlock());
+	public static final RegistryObject<Block> TIER_1_LAUNCH_PAD = REGISTRY.register("tier_1_launch_pad", () -> new Tier1LaunchPadBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -64,7 +64,7 @@ public class ModernPlanetsModBlocks {
 		public static void clientSetup(FMLClientSetupEvent event) {
 			RocketBlock.registerRenderLayer();
 			LaunchTowerBlock.registerRenderLayer();
-			LaunchPadBlock.registerRenderLayer();
+			Tier1LaunchPadBlock.registerRenderLayer();
 		}
 	}
 }
